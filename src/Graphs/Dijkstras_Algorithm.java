@@ -1,7 +1,7 @@
 package Graphs;
 
 public class Dijkstras_Algorithm {
-public static void dikstra(int [][]graph, int source) {
+public static void dijkstra(int [][]graph, int source) {
 	int count = graph.length;
 	boolean [] visitedVertex = new boolean[count];
 	int [] distance = new int[count];
